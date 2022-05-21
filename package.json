@@ -4,12 +4,7 @@
   "description": "JavaScript Integer Sequence Generator example project.",
   "license": "GPL-3.0",
   "private": true,
-  "scripts": {
-    "dev": "yarn test --watch",
-    "build": "echo 'need build inst'",
-    "clean": "rm -rf dist"
-  },
   "dependencies": {
-    "jisg": "^0.0"
+    "jisg": "*"
   }
 }
