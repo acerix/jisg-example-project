@@ -4,7 +4,13 @@
   "description": "JavaScript Integer Sequence Generator example project.",
   "license": "GPL-3.0",
   "private": true,
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve"
+  },
   "dependencies": {
-    "jisg": "*"
+    "jisg": "^0.7.2"
   }
 }
