@@ -17,6 +17,15 @@ yarn install
 # while developing, auto-rebuild when source files are changed
 yarn start
 
-# build for pruduction
+# run test suite
+yarn test
+
+# unlintify
+yarn lint --fix
+
+# build for production
 yarn build
+
+# test build
+yarn serve
 ```

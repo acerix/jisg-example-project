@@ -1,8 +1,8 @@
 import React from 'react'
-import {A000045} from 'jisg'
+import {A000040} from 'jisg'
 import './App.css'
 
-const generator = A000045()
+const generator = A000040()
 
 interface AppState {
   output: String
