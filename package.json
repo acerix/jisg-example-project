@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "yarn test --watch",
+    "build": "echo 'need build inst'",
     "clean": "rm -rf dist"
   },
   "dependencies": {
