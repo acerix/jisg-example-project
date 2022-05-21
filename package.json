@@ -1,16 +1,48 @@
 {
   "name": "jisg-example-project",
-  "version": "0.0.0",
+  "title": "JISG Example Project",
   "description": "JavaScript Integer Sequence Generator example project.",
+  "version": "0.0.0",
   "license": "GPL-3.0",
   "private": true,
-  "scripts": {
-    "clean": "rm -rf dist",
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "start": "webpack serve"
-  },
   "dependencies": {
-    "jisg": "^0.7.2"
+    "@testing-library/jest-dom": "*",
+    "@testing-library/react": "*",
+    "@testing-library/user-event": "*",
+    "@types/jest": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "jisg": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-scripts": "*",
+    "typescript": "*",
+    "web-vitals": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "lint": "eslint 'src/**/*.{ts,tsx,js,jsx,json}'",
+    "build": "react-scripts build",
+    "serve": "serve -s build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
